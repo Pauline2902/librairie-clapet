@@ -196,7 +196,13 @@ button {
 }
 
 .chapo {
-  font-size: 1.6em;
+    font-size: 25px;
+    text-align: center;
+    font-family: WorkSans;
+    WIDTH: 960px;
+    height: 116px;
+    X: 463.7px;
+    Y: 336.8px;
 }
 
 .full-width {
