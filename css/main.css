@@ -1,3 +1,7 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Work+Sans');
+</style>
+;
 
 /**
 * -----------
@@ -9,7 +13,7 @@ body {
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', "worksans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #303044;
 }
