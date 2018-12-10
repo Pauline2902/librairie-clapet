@@ -93,8 +93,8 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 960px;
-  max-width: 100%;
+  width: 1440px;
+  
 }
 
 .text-container {
@@ -227,8 +227,8 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  width: 960px;
-  height: 350px;
+  width: 1440px;
+  height: 462px;
   background: url("../img/header-bg.png");
   background-size: cover;
   background-position: center bottom;
