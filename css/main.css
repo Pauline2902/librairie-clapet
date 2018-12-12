@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,500,600,700|Work+Sans');
 
-;
+
 
 /**
 * -----------
@@ -10,9 +10,8 @@
 */
 
 body {
-  font-family: "WorkSans", Helvetica, Arial, sans-serif;
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 20px ; 
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -43,14 +42,14 @@ h1 {
   margin: 25px 0;
   font-size: 4.5em;
   font-weight: 700;
-  font-family: 'Montserrat', "worksans", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', "work sans", Helvetica, Arial, sans-serif;
 }
 
 h2 {
   margin: 25px 0;
   font-size: 3.5em;
   font-weight: 200;
-  font-family: "montserrat"
+  font-family: "Montserrat"
 }
 
 h3 {
@@ -75,7 +74,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   line-height: 1;
 }
 
