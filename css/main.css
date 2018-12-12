@@ -275,7 +275,10 @@ button {
 
 
 .header__nav {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: "montserrat";
+  font-weight: 200;
 }
 
 .nav-main__item {
