@@ -47,7 +47,7 @@ h1 {
 
 h2 {
   margin: 25px 0;
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 20px;
   font-size: 3.5em;
   font-weight: 200;
@@ -212,7 +212,7 @@ button {
     text-align: center;
     font-family: "work sans";
     WIDTH: 960px;
-    height: 116px;
+    height: 90px;
     margin: auto;
     padding-bottom: 20px;
     padding-top: 30px;
@@ -306,16 +306,22 @@ button {
 
 /**
 * separator
+
+
 */
 .separator {
   display: block;
   margin: 50px auto;
+  margin-top: 98px; 
+  margin-bottom: 20px;
   width: 200px;
   height: 50px;
   border: none;
   background-color: #d9d9d9;
-}
 
+
+
+}
 
 /**
 * honey-pot
@@ -323,6 +329,10 @@ button {
 
 .honey-pot-list {
   text-align: center;
+  display: inline-flex;
+  width: 1440px;
+  justify-content: space-around;
+
 }
 
 .honey-pot {
