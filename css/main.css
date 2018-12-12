@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,500,600,700|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,500,600,700|Work+Sans:200,300,400');
 
 
 
@@ -10,7 +10,7 @@
 */
 
 body {
-  font-family: "Work Sans", Helvetica, Arial, sans-serif;
+  font-family: "Work Sans", "montserrat", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -204,9 +204,9 @@ button {
 }
 
 .chapo {
-    font-size: 25px;
+    font-size: 24px;
     text-align: center;
-    font-family: WorkSans;
+    font-family: "work sans";
     WIDTH: 960px;
     height: 116px;
     margin: auto;
@@ -289,6 +289,7 @@ button {
   display: block;
   padding: 10px;
   color: #fff;
+  font-weight: 300
 }
 .nav-main__link:hover {
   text-decoration: none;
@@ -379,6 +380,7 @@ button {
 .news__thumbnail {
   margin-bottom: 10px;
   filter: grayscale(0);
+  
 }
 
 .news__image {
