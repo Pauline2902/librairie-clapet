@@ -47,9 +47,13 @@ h1 {
 
 h2 {
   margin: 25px 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
   font-size: 3.5em;
   font-weight: 200;
   font-family: "Montserrat"
+
+
 }
 
 h3 {
@@ -210,6 +214,8 @@ button {
     WIDTH: 960px;
     height: 116px;
     margin: auto;
+    padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 .full-width {
@@ -264,7 +270,7 @@ button {
 .header__title {
   font-size: 5.4em;
   padding-bottom: 15px;
-  
+
 }
 
 .header__subtitle {
