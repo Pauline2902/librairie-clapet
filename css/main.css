@@ -466,6 +466,49 @@ button {
   grid-column: span 1;
 }
 
+.news-list__news-grand {
+  grid-column: span 3;
+
+}
+
+.news__thumbnail-grand {
+  margin-bottom: 10px;
+  filter: grayscale(0);
+}
+
+.news__image-grand {
+  display: block;
+  width: 100%;
+}
+
+.news__date-grand {
+  margin: 0;
+  font-size: 1.8em;
+  color: #e8a27d;
+}
+
+.news__title-grand {
+  margin: 0 0 15px;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.4;
+}
+
+.news__text-grand {
+  margin: 0;
+  font-size: 1.4em;
+  line-height: 1.4;
+}
+
+.news__image {
+  display: block;
+  width: 100%;
+}
+
+.link-block-grand {
+  display: flex;
+  color: inherit;
+}
 /**
 * -----------
 * Trumps
