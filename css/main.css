@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   line-height: 1;
   font-size: 6.4em;
-  margin-top: -27px
+  margin-top: 145px
 }
 
 a, button {
@@ -314,14 +314,12 @@ button {
 
 */
 .separator {
-  display: block;
-  margin: 50px auto;
-  margin-top: 98px; 
+  display: block; 
   margin-bottom: 20px;
   width: 200px;
   height: 50px;
   border: none;
-  background-color: #d9d9d9;
+  background-color: #ffffff;
 
 
 
@@ -539,7 +537,8 @@ button {
 */
 .index-title {
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 76px;
+  margin-left: 84px;
 }
 
 .actu-list {
@@ -548,6 +547,9 @@ button {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   margin-bottom: 35px;
+  text-align: center
+  width: 1440px;
+  
 }
 .actu-list {
   grid-column: span 1;
@@ -568,6 +570,7 @@ button {
   margin-bottom: 0;
   margin-right: 40px;
   min-width: 450px;
+
 }
 
 .actu-list__news--4 .news__title {
