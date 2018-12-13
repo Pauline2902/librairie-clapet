@@ -107,7 +107,7 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 1440px;
+  width: 960px;
   max-width: 100%;
   
 }
@@ -214,10 +214,10 @@ button {
     font-size: 24px;
     text-align: center;
     font-family: "work sans";
-    WIDTH: 960px;
-    height: 90px;
+    width: 960px;
+    max-width: 100%;
     margin: auto;
-    padding-bottom: 20px;
+    margin-bottom: 25px;
     padding-top: 30px;
 }
 
@@ -332,7 +332,7 @@ button {
 .honey-pot-list {
   text-align: center;
   display: inline-flex;
-  width: 1440px;
+  max-width: 100%;
   justify-content: space-around;
 
 }
@@ -538,7 +538,7 @@ button {
 .index-title {
   text-align: center;
   margin-bottom: 76px;
-  margin-left: 84px;
+  margin-left: -34px;
 }
 
 .actu-list {
@@ -586,3 +586,9 @@ button {
   line-height: 1.4;
 
 }
+
+  .parent  {
+display: flex; 
+}
+
+
