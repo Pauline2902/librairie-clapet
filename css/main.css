@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   line-height: 1;
   font-size: 6.4em;
-  margin-top: 145px
+  margin-top: -64px
 }
 
 a, button {
@@ -310,17 +310,39 @@ button {
 
 
 */
+
 .separator {
+  display: block;
+  margin: 100px auto;
+  width: 200px;
+  height: 1px;
+  transform: rotate(15deg);
+  border: none;
+  background-color: #d9d9d9;
+
+}
+.separator::before {
+  content: "";
+  display: block;
+  margin: 100px auto;
+  width: 200px;
+  height: 1px;
+  transform: rotate(-30deg);
+  border: none;
+  background-color: #d9d9d9;
+
+}
+.separator2 {
   display: block; 
   margin-bottom: -26px;
   width: 200px;
   height: 50px;
   border: none;
   background-color: #ffffff;
-
-
-
 }
+
+
+
 
 /**
 * honey-pot
@@ -330,12 +352,11 @@ button {
   text-align: center;
   display: flex;
   max-width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
 
 }
 
 .honey-pot {
-  display: inline-block;
   margin: 0 30px 35px 30px;
   text-align: center;
 }
