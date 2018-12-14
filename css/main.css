@@ -10,14 +10,11 @@
 */
 
 body {
-  font-family: "Work Sans", "montserrat", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
+  font-family: "Work Sans", "montserrat", Helvetica, Arial, sans-serif; 
   margin: auto;
   letter-spacing: normal;
   color: var(--black);
+  max-width: 1440px;
   
 }
 
@@ -107,7 +104,7 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 960px;
+  width: 1200px;
   max-width: 100%;
   
 }
@@ -331,7 +328,7 @@ button {
 
 .honey-pot-list {
   text-align: center;
-  display: inline-flex;
+  display: flex;
   max-width: 100%;
   justify-content: space-around;
 
@@ -547,8 +544,7 @@ button {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   margin-bottom: 35px;
-  text-align: center
-  width: 1440px;
+  text-align: center;
   
 }
 .actu-list {
@@ -588,7 +584,17 @@ button {
 }
 
   .parent  {
-display: flex; 
+display: flex;
+width: 960px;
+max-width: 100%;
 }
 
+.une-nuit {
+  width: 600px;
+  height: 87px;
+  font-family: "WorkSans";
+  font-size: 25px;
+
+
+}
 
