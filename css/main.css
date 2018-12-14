@@ -612,7 +612,7 @@ max-width: 100%;
 .une-nuit {
   width: 600px;
   height: 87px;
-  font-family: "WorkSans";
+  font-family: "Work Sans";
   font-size: 25px;
   margin: 30px;
 }
@@ -620,8 +620,8 @@ max-width: 100%;
 .il-fait-une-decouverte {
   width: 600px;
   height: 216px;
-  font-family: "WorkSans";
-  font-size: 20px;
+  font-family: "Work Sans";
+  font-size: 18px;
   margin: 30px;
 }
 
@@ -642,7 +642,7 @@ max-width: 100%;
 .legende1 {
   width: 600px;
   height: 19px;
-  font-family: "WorkSans";
+  font-family: "Work Sans";
   font-size: 16px;
   color: #1a1a1a ;
   text-align: right;
@@ -653,7 +653,7 @@ max-width: 100%;
 .citation2 {
   width: 584px;
   height: 87px;
-  font-family: "WorkSans";
+  font-family: "Work Sans";
   font-size: 24px;
   font-weight: 300;
   color: #d9926c; 
@@ -667,7 +667,7 @@ max-width: 100%;
 .legende2 {
   width: 600px;
   height: 19px;
-  font-family: "WorkSans";
+  font-family: "Work Sans";
   font-size: 16px;
   color: #1a1a1a ;
   text-align: right;
@@ -677,10 +677,17 @@ max-width: 100%;
 
 .Jim-Lynch-est-ne {
   width: 600px;
-  height: 160px;
-  font-family: "WorkSans";
-  font-size: 20px;
+  height: 216px;
+  font-family: "Work Sans";
+  font-size: 18px;
   color: #1a1a1a ;
   margin: 30px;
 }
+.texte-bas {
+  font-weight:400;
+  width: 960px;
+  text-align: justify;
+  margin:auto;
+}
 
+ */
